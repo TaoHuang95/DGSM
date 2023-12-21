@@ -16,7 +16,7 @@ parser.add_argument('--outf', type=str, default='/home/huangtao/Code/Spectral_SC
 
 # Model specifications
 parser.add_argument('--method', type=str, default='DGSM_Swin_T2P4', help='method name')
-parser.add_argument('--pretrained_model_path', type=str, default='/home/huangtao/Code/Spectral_SCI/TPAMI_SCI_Code/Code2/exp/DGSM_Swin_T2P4/model/model_epoch_187.pth', help='pretrained model directory')
+parser.add_argument('--pretrained_model_path', type=str, default='/home/huangtao/Code/Spectral_SCI/TPAMI_SCI_Code/Code2/exp/DGSM_Swin_T2P4/model/pretrained_model.pth', help='pretrained model directory')
 parser.add_argument("--input_setting", type=str, default='Y',
                     help='the input measurement of the network: H, HM or Y')
 parser.add_argument("--input_mask", type=str, default=None,
